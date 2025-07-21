@@ -36,7 +36,7 @@ let PKCE_MAP = new Map();
     PKCE_MAP.delete(state);
   
     // Redirect to frontend
-    ctx.redirect(`http://localhost:5173/success`);
+    ctx.redirect(`https://canva-testing-frontend.vercel.app/success`);
 };
 
 
